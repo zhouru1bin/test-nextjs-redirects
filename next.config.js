@@ -6,7 +6,8 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: '/test2', // Proxy to Backend
+        destination: 'https://www.baidu.com/', // Proxy to Backend
+        basePath: false,
       },
     ];
   },
